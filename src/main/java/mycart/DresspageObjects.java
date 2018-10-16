@@ -74,8 +74,6 @@ public class DresspageObjects extends BasePage {
 	
 	@FindBys(@FindBy(xpath="//span[@class='discount']//parent::div[@class='product-flags']//parent::div[@class='center-block col-xs-4 col-xs-7 col-md-4']//following-sibling::div[@class='right-block col-xs-4 col-xs-12 col-md-4']/div/div/span[3]"))
 	private List<WebElement> reduced;
-
-	
 	
 	public DresspageObjects() {
 		PageFactory.initElements(driver, this);

@@ -109,7 +109,7 @@ public class DresspageTest extends BasePage {
 	public void verifydiscounts() {
 		homePage.clickdresstext();
 		Dp.getlisticon();
-		Dp.getalldiscountvalues(Dp.);
+		Dp.getp
 
 	}
 
